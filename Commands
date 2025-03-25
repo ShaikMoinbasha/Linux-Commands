@@ -1,0 +1,35 @@
+=============
+AWS commands :-
+=============
+
+1.whoami :-To know user name
+2.date:-To know current date
+3.cal:-calendar of particular month
+4.pwd:-present working directory
+5.ls-Files available in working directory(row wise means displays in single line)
+6.mkdir :- to create folder in current working directory
+7.cd <name>:- change directory(switch into another directory)
+8.cd ..:-to come out from u r current directory
+9.rmdir <filename or directory name>:-to remove folder inside the current directory or remove the directory(only empty directory's or folders we can remove)
+10.cd ../..:-to come out from multiple current directory(based on dots)
+11.touch (touch f1.txt) :-to create empty file
+12.ls -l :-display files in line by line (follows alphabetical format)
+13.ls -lr:-display files in quit opposite to ls -l command (reverse of alphabetical format)
+14.ls -lt:-displays files based on creation time (latest to oldest)
+15.ls -ltr:-displays files based on creation time (oldest to latest)
+16.cat >filename.txt :-create file with data allows us to write the data
+17.cat filename.txt :-shows data available in file
+18.cat >>filename.txt:-append data with old data(if u use single > that will override data with new data )
+19.ctrl+D :- to close the file
+20.cat -n filename.txt:-show data along with line number
+21.cp source filename destination filename (cp java.txt python.txt):-copy data present in one file to another file.
+22.ls <directory name> :-to show folder available in that directory
+23.mv filename and rename filename(mv f1.txt file1.txt) :-to rename file name
+24.mv filename directory name (mv f1.txt aws):-to cut the file from current directory and paste it into other directory.
+25.rm filename: to remove the file from current directory.
+26.rm -r directory name:-To remove empty directory 
+
+
+
+
+
