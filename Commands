@@ -28,6 +28,24 @@ AWS commands :-
 24.mv filename directory name (mv f1.txt aws):-to cut the file from current directory and paste it into other directory.
 25.rm filename: to remove the file from current directory.
 26.rm -r directory name:-To remove empty directory 
+27.cat f1.txt f2.txt > f3.txt :-To copy more than one file data into another file (for one file usp cp command)
+28.tac f1.txt :- To print file data in reverse format
+29.wc f1.txt :- Word count of the file (output:-2 10 32,[ Number of lines , Number of words ,Number of characters])
+30.head f1.txt :- To print the first 10 lines in the file(by default it will 10)
+31.tail f1.txt :- To print last 10 lines in the file(by default it will 10)
+32.head -n 15 f1.txt:-It will print top 15 lines bcz we are customizing the number(same for tail also).
+33.grep "aws" f1.txt:-To search word by using particular word (case sensitive)
+34.grep -i "aws" f1.txt:-To search word by using particular word (Ignore case sensitive)
+35.vi filename:-Visual editor is used to edit the file ,after editing completed click ":wq"--->(write and quit)
+                   It has 3 modes:-1.Read (By default)
+				   2.Insert Mode (press "i" to go into insert 
+				   3.Escape Mode (press "esp" to come out from escape mode)
+36.If u does not want to changes made then click ":q!"--->just quit not change
+37.ifconfig:-To get ip address
+38.ping:To check connectivity
+39.wget:To download files using url
+40.curl:-To send http request
+ 
 
 
 
